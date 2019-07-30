@@ -3,9 +3,9 @@ import SecondPage from './components/SecondPage'
 import ThirdPage from './components/ThirdPage'
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/secondpage', component: SecondPage },
-    { path: '/thirdpage', component: ThirdPage },
+    { path: '/', component: Home, name: 'home' },
+    { path: '/secondpage', component: SecondPage, name: 'second' },
+    { path: '/thirdpage', component: ThirdPage, name: 'third' },
 ];
 
 export default routes;
