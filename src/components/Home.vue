@@ -2,18 +2,20 @@
     <div>
         Are you Stressed?
         <br />
-        <button type="button" @click="onYes">
+        <router-link to="/secondpage">
+        <button type="button">
         Yes
         </button>
+        </router-link>
         <button>
         No
         </button>
     </div>
 </template>
 <script>
-function onYes() {
-    this.$router.go({name: 'second'});
-}
+// function onYes() {
+//     this.$router.push('/secondpage');
+// }
 export default {
     
 }
