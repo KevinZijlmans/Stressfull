@@ -1,6 +1,10 @@
 <template>
     <div>
-        Third Page
+        Click
+        <router-link to='/fourthpage'>
+        <p>here</p>
+        </router-link>
+        to go to the next page
     </div>
 </template>
 <script>
