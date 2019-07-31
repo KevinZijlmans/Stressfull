@@ -7,7 +7,8 @@ const routes = [
     { path: '/', component: Home, name: 'home' },
     { path: '/secondpage', component: SecondPage, name: 'second' },
     { path: '/thirdpage', component: ThirdPage, name: 'third' },
-    { path: '/failure', component: Failure, name: 'failure'}
+    { path: '/failure', component: Failure, name: 'failure'},
+    { path: '/fourthpage', component: Failure, name: 'fourth'},
 ];
 
 export default routes;
