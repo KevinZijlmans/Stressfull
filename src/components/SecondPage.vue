@@ -1,9 +1,18 @@
 <template>
     <div>
-        Second page
+Please press the red button!
+<br />
+<button>Green</button>
+<button>Red</button>
+<button>Yellow</button>
+<button>Mauve</button>
+<router-link to="/thirdpage">
+<button></button>
+</router-link>
     </div>
+
 </template>
-<script>
+<script type="text/javascript">
 export default {
     
 }
