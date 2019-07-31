@@ -1,6 +1,6 @@
 <template>
     <div>
-        Click here to go to the next page
+        Please enter your name!
     </div>
 </template>
 <script>
