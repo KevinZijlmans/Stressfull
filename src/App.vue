@@ -1,10 +1,5 @@
 <template>
 <div id="app">
-  <nav>
-      <router-link to='/'>Home</router-link>
-      <router-link to='/secondpage'>secondpage</router-link>
-      <router-link to='/thirdpage'>thirdpage</router-link>
-  </nav>
   <router-view />
 </div>
   

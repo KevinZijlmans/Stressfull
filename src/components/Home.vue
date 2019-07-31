@@ -13,9 +13,6 @@
     </div>
 </template>
 <script>
-// function onYes() {
-//     this.$router.push('/secondpage');
-// }
 export default {
     
 }

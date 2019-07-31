@@ -1,6 +1,6 @@
 <template>
     <div>
-        Second page
+        Please enter your name!
     </div>
 </template>
 <script>
