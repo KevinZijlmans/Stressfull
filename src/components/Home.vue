@@ -1,13 +1,15 @@
 <template>
     <div>
+        <p>
         Are you Stressed?
+        </p>
         <br />
         <router-link to="/secondpage">
-        <button type="button">
+        <button class="yes" type="button">
         Yes
         </button>
         </router-link>
-        <button>
+        <button class="no" type="button">
         No
         </button>
     </div>
