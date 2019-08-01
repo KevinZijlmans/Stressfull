@@ -3,13 +3,13 @@
 Please press the red button!
 <br />
 <router-link to="/failure">
-<button>Green</button>
-<button>Red</button>
-<button>Yellow</button>
-<button>Mauve</button>
+<button class='green'>Green</button>
+<button class='red'>Red</button>
+<button class='yellow'>Yellow</button>
+<button class='mauve'>Mauve</button>
 </router-link>
 <router-link to="/thirdpage">
-<button></button>
+<button class='right'></button>
 </router-link>
     </div>
 
