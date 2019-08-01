@@ -50,4 +50,35 @@ button {
   background-color: red;
   margin-left: 100cm
 }
+
+.click:hover {
+  text-decoration: underline;
+  cursor: no-drop;
+}
+.here {
+  text-decoration: underline;
+  color: purple;
+}
+.to {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.go:hover:after{
+  content: 'LOOK DOWN';
+}
+.therightclick {
+  margin-top: 50cm;
+}
+.next {
+  font-size: 1em;
+  width: 3em;
+  height: 3em;
+  margin: 0cm;
+}
+.next:hover {
+  cursor:crosshair;
+}
+.page:hover {
+  cursor:pointer;
+}
+
 </style>
