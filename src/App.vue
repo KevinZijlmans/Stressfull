@@ -23,7 +23,8 @@ export default {
 
 button {
   font-size: 1cm;
-  margin: 2cm
+  margin: 2cm;
+  width: 5cm;
 }
 
 .no:hover {
