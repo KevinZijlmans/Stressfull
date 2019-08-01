@@ -30,10 +30,14 @@ button {
   width: 5cm;
   height: 5cm;
   border-radius: 50%;
-  background-color: linear-gradient(to right, red , yellow);
   
 }
-
+.yes {
+  background-image: linear-gradient(to right, red , yellow);
+}
+.no {
+  background-image: linear-gradient(to right, red , yellow);
+}
 .no:hover {
   cursor:wait;
   opacity: 0;
@@ -85,7 +89,21 @@ button {
 .page:hover {
   cursor:pointer;
 }
-
+.numberone {
+  background-image: linear-gradient(to right, red , yellow);
+}
+.one {
+  background-image: linear-gradient(to right, red , yellow);
+}
+.ein {
+  background-image: linear-gradient(to right, red , yellow);
+}
+.uno {
+  background-image: linear-gradient(to right, red , yellow);
+}
+.un {
+  background-image: linear-gradient(to right, red , yellow);
+}
 .numberone:hover::after {
   content: ' = Uno';
 }
@@ -100,5 +118,9 @@ button {
 }
 .un:hover:after {
   content: ' = Ein';
+}
+
+.mainbutton {
+  background-image: linear-gradient(to right, red , yellow);
 }
 </style>
