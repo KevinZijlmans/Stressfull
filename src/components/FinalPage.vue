@@ -6,9 +6,11 @@
             HELL NO
             </button>
         <br />
+        <router-link to='/'>
         <button class='mainbuttons' @click="stillStressed">
             Still pretty stressed yeah
             </button>
+            </router-link>
     </div>
 </template>
 <script>
