@@ -27,10 +27,18 @@ body {
 button {
   font-size: 1cm;
   margin: 2cm;
-  width: 5cm;
-  height: 5cm;
+  width: 6cm;
+  height: 6cm;
   border-radius: 50%;
   
+}
+a {
+  font-size: 2cm;
+  margin: 2mm;
+}
+i {
+  font-size: 2cm;
+  margin: 2mm;
 }
 .yes {
   background-image: linear-gradient(to right, red , yellow);
@@ -120,7 +128,7 @@ button {
   content: ' = Ein';
 }
 
-.mainbutton {
+.mainbuttons {
   background-image: linear-gradient(to right, red , yellow);
 }
 </style>

@@ -1,17 +1,17 @@
 <template>
     <div>
         <router-link to='/failure'>
-        <p class='click'>Click</p>
+        <a class='click'>Click</a>
         </router-link>
         <i class='here'>here</i>
-        <p class='to'>to</p>
+        <a class='to'>to</a>
         <a class='go'>go </a>
-        <p class='to'>to</p>
-        <p class='the'>the</p>
+        <a class='to'>to</a>
+        <a class='the'>the</a>
         <router-link to='/failure'>
         <button class='next'>next</button>
         </router-link>
-        <p class='page'>page</p>
+        <a class='page'>page</a>
         <router-link to='/fourthpage'>
         <p class='therightclick'>here</p>
         </router-link>
