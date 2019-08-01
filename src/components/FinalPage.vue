@@ -2,13 +2,15 @@
     <div>
         Are you still stressed?
         <br />
-        <button @click="hellNo">
+        <button class='mainbuttons' @click="hellNo">
             HELL NO
             </button>
         <br />
-        <button @click="stillStressed">
+        <router-link to='/'>
+        <button class='mainbuttons' @click="stillStressed">
             Still pretty stressed yeah
             </button>
+            </router-link>
     </div>
 </template>
 <script>
