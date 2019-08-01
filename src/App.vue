@@ -25,6 +25,8 @@ button {
   font-size: 1cm;
   margin: 2cm;
   width: 5cm;
+  height: 5cm;
+  
 }
 
 .no:hover {
@@ -33,16 +35,16 @@ button {
 }
 
 .yellow {
-  background-color: green
+  background-color: rgb(230, 69, 10)
 }
 .green {
   background-color: tomato
 }
 .red {
-  background-color: magenta
+  background-color: rgb(196, 57, 33)
 }
 .mauve {
-  background-color: purple
+  background-color: rgb(128, 0, 0)
 }
 .right {
   background-color: red;
