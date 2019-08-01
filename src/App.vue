@@ -81,4 +81,19 @@ button {
   cursor:pointer;
 }
 
+.numberone:hover::after {
+  content: ' = Uno';
+}
+.one:hover:after {
+  content: ' = 1';
+}
+.ein:hover:after {
+  content: ' = Un';
+}
+.uno:hover:after {
+  content: ' = One';
+}
+.un:hover:after {
+  content: ' = Ein';
+}
 </style>
