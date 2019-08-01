@@ -30,4 +30,21 @@ button {
   cursor:wait;
   opacity: 0;
 }
+
+.yellow {
+  background-color: green
+}
+.green {
+  background-color: tomato
+}
+.red {
+  background-color: magenta
+}
+.mauve {
+  background-color: purple
+}
+.right {
+  background-color: red;
+  margin-left: 100cm
+}
 </style>

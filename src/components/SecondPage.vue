@@ -9,7 +9,7 @@ Please press the red button!
 <button class='mauve'>Mauve</button>
 </router-link>
 <router-link to="/thirdpage">
-<button class='right'></button>
+<button class='right'>It's this one idiot</button>
 </router-link>
     </div>
 
