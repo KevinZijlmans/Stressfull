@@ -13,19 +13,24 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $primary;
   margin-top: 60px;
+  font-size: 3cm;
 }
-
+body {
+   background-color: blanchedalmond
+}
 button {
   font-size: 1cm;
   margin: 2cm;
   width: 5cm;
   height: 5cm;
+  border-radius: 50%;
+  background-color: linear-gradient(to right, red , yellow);
   
 }
 

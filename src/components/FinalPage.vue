@@ -2,13 +2,25 @@
     <div>
         Are you still stressed?
         <br />
-        <button>HELL NO</button>
+        <button @click="hellNo">
+            HELL NO
+            </button>
         <br />
-        <button>Still pretty stressed yeah</button>
+        <button @click="stillStressed">
+            Still pretty stressed yeah
+            </button>
     </div>
 </template>
 <script>
 export default {
-    
+    name: 'yes/no',
+    methods: {
+        hellNo(){
+            alert("Congrats you are stressfree!")
+        },
+        stillStressed(){
+            alert("Maybe you should play again?")
+        }
+    }
 }
 </script>
